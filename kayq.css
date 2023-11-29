@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(148, 89, 216);
+}
+
+.pahanj {
+    text-align: center;
+    margin: 10px;
+}
+
+.wrapper {
+    background-color: rgb(110, 34, 181);
+    width: 810px;
+    height: 810px;
+    border: 3px solid pink;
+    margin: 50px auto;
+    border-radius: 100%;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    width: 200px;
+    background-color: rgb(230, 218, 232);
+    color: rgb(109, 16, 146);
+    font-weight: 300;
+    border-radius: 50%;
+}
+
+::placeholder {
+    color: rgb(91, 0, 148);
+    text-align: center;
+}
+
+#left1 {
+    font-size: 15px;
+    padding: 50px;
+    top: 15px;
+    right: 38%;
+}
+
+#left2 {
+    font-size: 15px;
+    padding: 50px;
+    top: 110px;
+    right: 61%;
+}
+
+#left3 {
+    font-size: 15px;
+    padding: 50px;
+    top: 265px;
+    right: 71%;
+}
+
+#left4 {
+    font-size: 15px;
+    padding: 50px;
+    top: 425px;
+    right: 71%;
+}
+
+#left5 {
+    font-size: 15px;
+    padding: 50px;
+    top: 575px;
+    right: 61%;
+}
+
+#right1 {
+    font-size: 15px;
+    padding: 50px;
+    top: 110px;
+    right: 15%;
+}
+
+#right2 {
+    font-size: 15px;
+    padding: 50px;
+    top: 265px;
+    right: 5%;
+}
+
+#right3 {
+    font-size: 15px;
+    padding: 50px;
+    top: 425px;
+    right: 5%;
+}
+
+#right4 {
+    font-size: 15px;
+    padding: 50px;
+    top: 575px;
+    right: 15%;
+}
+
+#right5 {
+    font-size: 15px;
+    padding: 50px;
+    top: 670px;
+    right: 38%;
+}
+
+#button {
+    position: absolute;
+    font-size: 15px;
+    padding: 50px;
+    top: 340px;
+    right: 38%;
+    border-radius: 50%;
+}
+
+#score {
+    font-size: 20px;
+    position: absolute;
+    top: 280px;
+    right: 45%;
+}
+
+#answer {
+    font-size: 20px;
+    position: absolute;
+    top: 500px;
+    right: 43%;
+}
